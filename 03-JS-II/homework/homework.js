@@ -150,15 +150,17 @@ function esPrimo(numero) {
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
  if (numero>1){
- 
-  for(i=2;i<numero;i++){
-    if (numero%i==0||numero==9){
-      return false
+  {
+    for(var x = 2; x < numero; x++)
+    {
+      if(numero % x === 0)
+      {
+        return false;
+      }
     }
-       else{
-      return true
-    }
-  }}else {
+    return true;  
+  }
+}else {
    return false
   }
 }
