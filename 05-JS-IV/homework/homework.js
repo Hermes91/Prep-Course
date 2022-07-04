@@ -61,8 +61,8 @@ function tieneEmail (usuario) {
   // Devuelve "true" si el usuario tiene un valor definido para la propiedad "email"
   // De lo contratio, devuelve "false"
   // Tu código:
- if(usuario.hasOwnProperty('email')){
-  if(usuario['email']===null){return false}else return true
+ if(usuario.hasOwnProperty("email")){
+  if(usuario["email"]===null){return false}else return true
  }else return false
 }
 
@@ -81,7 +81,7 @@ function verificarPassword (usuario, password) {
   // Devuelve "true" si coinciden
   // De lo contrario, devuelve "false"
   // Tu código:
-  if( password=== usuario['password']){return true} 
+  if( password=== usuario["password"]){return true} 
   else  return false
 }
 
@@ -89,7 +89,7 @@ function actualizarPassword (usuario, nuevaPassword) {
   // Reemplaza la contraseña existente en el objeto "usuario" con el valor de "nuevagPassword"
   // Devuelve el objeto
   // Tu código:
-  usuario['password']=nuevaPassword;
+  usuario["password"]=nuevaPassword;
   return usuario
 }
 
