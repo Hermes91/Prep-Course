@@ -1,0 +1,35 @@
+body {
+    background-image: url("https://png.pngtree.com/background/20210711/original/pngtree-abstract-80s-trendy-geometric-background-neon-colors-picture-image_1157555.jpg");
+    background-size: cover;
+    color: wheat;
+}
+
+h1 {
+   
+    color: rgb(116, 255, 186);
+}
+
+img {
+    width: 400px;
+}
+
+.divClass {
+    text-align: center;
+}
+
+#thirdDiv {
+    display: flex;
+    height: 600px;
+    width: 500px;
+    background-color: rgb(37, 23, 28);
+    padding: 50px;
+    border: 3pt solid steelblue;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
